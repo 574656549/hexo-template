@@ -59,8 +59,3 @@ jobs:
         git commit -m "${{ github.event.head_commit.message }} $(date +"%Z %Y-%m-%d %A %H:%M:%S") Updated By Github Actions"
         git push --force --quiet "https://${{ secrets.GITHUBUSERNAME }}:${{ secrets.GITHUBTOKEN }}@github.com/${{ secrets.GITHUBUSERNAME }}/${{ secrets.GITHUBUSERNAME }}.github.io.git" master:main
 
-
-作者: Yonagi
-链接: https://yonagi04.github.io/posts/2024/aaf8aa1a07d2/index.html#%E8%8E%B7%E5%8F%96Token
-来源: Yonagi's Sekai
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
